@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../src/index.css'
 import about from '../../assets/about.png'
+import resume from '../../assets/Manimaran-K_JFSD.pdf'
 
 
 
@@ -61,7 +62,7 @@ function About() {
           
             <div className="mt-4">
               <a
-                href="/resume.pdf"
+                href={resume}
                 download
                 className="btn btn-warning text-black fw-bold"
               >
