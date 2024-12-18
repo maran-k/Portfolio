@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+}
+
+
+
+.navbar-toggle {
+    background-color: #ffffff; 
+    border-color: #ffffff; 
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-effect:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgb(242, 242, 242); 
+  }
+  
+  .hover-effect:active {
+    transform: translateY(2px); 
+    box-shadow: 0 5px 10px rgb(247, 247, 247); 
+  }
+
+
+  .rounded-circle {
+    transition: transform 0.3s ease;
+  }
+  
+  .rounded-circle:hover {
+    transform: scale(1.1);
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
