@@ -20,7 +20,7 @@ const Projects = () => {
                           Ensured cross-browser compatibility and optimized performance. `,
             technologies: ["React", "Bootstrap"],
             demoLink: "#",
-            sourceLink: "",
+            sourceLink: "https://github.com/maran-k/Portfolio",
           }
 
     ]
