@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container,  Row ,Image } from 'react-bootstrap'
 import profile from '../../assets/photo.jpg'
+import resume from '../../assets/Manimaran_K _JFSD.pdf'
 
 
 function HomeBanner() {
@@ -21,13 +22,26 @@ function HomeBanner() {
 
         
           <Col md={6} className="text-center text-md-start pb-3 pb-sm-4">
-            <h1 className="fw-bold  p-sm-2">Hi, I’m Manimaran K</h1>
+            <h1 className="fw-bold ">Hi, I’m Manimaran K</h1>
             <p className="text-muted">
               I’m a <span className="fw-bold">Full Stack Developer</span> <br />
               & Software Engineer From India
             </p>
+            <div >
+                <a
+                  href={resume}
+                  download="Manimaran_K_JFSD_Resume.pdf" 
+                  className="btn btn-black text-warning fw-bold "
+                  style={{
+                    backgroundColor: 'black',
+                    padding: '10px 20px',
+                    textDecoration: 'none',
+                  }}
+                >
+                  RESUME <i className="bi bi-download ms-2"></i>
+                </a>
+              </div>
           </Col>
-          
           
           
         </Row>

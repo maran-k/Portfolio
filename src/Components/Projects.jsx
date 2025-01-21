@@ -21,6 +21,13 @@ const Projects = () => {
             technologies: ["React", "Bootstrap"],
             demoLink: "#",
             sourceLink: "https://github.com/maran-k/Portfolio",
+          },
+          {
+            title: "E-Commerce",
+            description: `Designed a responsive E-commerce frontend with product listings, a shopping cart, user-friendly navigation, and state management using Redux Toolkit. `,
+            technologies: [ "React.js", "Redux Toolkit","Bootstrap"],
+            demoLink: "#",
+            sourceLink: "https://github.com/maran-k/E-Commerce.git",
           }
 
     ]

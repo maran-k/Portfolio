@@ -11,6 +11,7 @@ import boot from "../../assets/skills/bootstrap.png";
 import vs from "../../assets/tool/vscode.png";
 import ecl from "../../assets/tool/Eclipse.png";
 import sql from "../../assets/tool/mysql work.png";
+import redux from"../../assets/skills/redux.png"
 import '../../src/index.css';
 
 const Skill = () => {
@@ -24,6 +25,7 @@ const Skill = () => {
 
   const frame = [
     { logo: react, name: "React.js" },
+    { logo: redux, name: "Redux Toolkit" },
     { logo: boot, name: "Bootstrap" },
     { logo: spring, name: "Spring Boot" }
   ];

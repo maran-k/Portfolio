@@ -9,6 +9,7 @@ const Contact = () => {
   return (
     <section id="Contact" className="bg-warning">
       <Container className="p-4">
+      <h3 className="text-center text-black mb-5">I’m here to turn your concepts into reality. </h3>
         <Row>
           <Col md={4}>
             <Image
