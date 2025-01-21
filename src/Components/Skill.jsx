@@ -4,7 +4,7 @@ import css from "../../assets/skills/css.png";
 import html from "../../assets/skills/html.png";
 import js from "../../assets/skills/JS.png";
 import java from "../../assets/skills/java.png";
-import mysql from "../../assets/skills/Mysql.png";
+import msql from "../../assets/skills/Mysql.png";
 import react from "../../assets/skills/react.png";
 import spring from "../../assets/tool/spring.png";
 import boot from "../../assets/skills/bootstrap.png";
@@ -20,7 +20,7 @@ const Skill = () => {
     { logo: css, name: "CSS" },
     { logo: js, name: "JavaScript" },
     { logo: java, name: "Java" },
-    { logo: mysql, name: "MySQL" }
+    { logo: msql, name: "MySQL" }
   ];
 
   const frame = [
