@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container,  Row ,Image } from 'react-bootstrap'
 import profile from '../../assets/photo.jpg'
-import resume from '../../assets/Manimaran_K _JFSD.pdf'
+import resume from '../../assets/Manimaran_K_JFSD.pdf'
 
 
 function HomeBanner() {
